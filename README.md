@@ -1,21 +1,23 @@
-# 📱 Mobile App Signup Flow UI
+# 📧 Responsive Email Template
 
-A simple, user-friendly signup flow designed for mobile apps. Built with HTML, Tailwind CSS, and JavaScript.
+A clean and modern email template suitable for newsletters or promotional emails.
 
-## 🔥 Features
+## 💡 Features
 
-- Mobile-first responsive design
-- Personalized input placeholders
-- Form validation with instant feedback
-- Clean, modern UI with Tailwind CSS
+- Responsive design (mobile-friendly)
+- Visually appealing layout
+- Easy to edit and use
+- Works in most major email clients
 
-## 🚀 How to Run
+## 📄 How to Use
 
-1. Clone the repo
-2. Open `index.html` in your browser
+1. Open `index.html` in a browser to preview.
+2. Copy and paste the code into your email campaign tool (e.g., Mailchimp, HubSpot).
 
-## 📦 Future Improvements
+## 📱 Responsive View
 
-- Add backend integration (e.g., Firebase, Node.js)
-- Add error messages
-- Add OTP/email verification
+This template adjusts beautifully on mobile devices, tablets, and desktops.
+
+---
+
+Feel free to customize text, links, and colors based on your brand.

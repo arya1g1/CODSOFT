@@ -3,22 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Signup</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css" />
+  <title>Email Template</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .email-header {
+      background-color: #007bff;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    .email-body {
+      padding: 20px;
+      color: #333333;
+    }
+    .email-footer {
+      background-color: #f4f4f4;
+      color: #666666;
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+    }
+    .button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    @media only screen and (max-width: 600px) {
+      .email-body, .email-header, .email-footer {
+        padding: 15px;
+      }
+    }
+  </style>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-  <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-sm">
-    <h2 class="text-2xl font-bold mb-6 text-center">Create Your Account</h2>
-    <form id="signupForm" class="space-y-4">
-      <input type="text" placeholder="Full Name" class="w-full px-4 py-2 border rounded-lg" required />
-      <input type="email" placeholder="Email Address" class="w-full px-4 py-2 border rounded-lg" required />
-      <input type="password" placeholder="Password" class="w-full px-4 py-2 border rounded-lg" required />
-      <input type="text" placeholder="Location (optional)" class="w-full px-4 py-2 border rounded-lg" />
-      <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Sign Up</button>
-    </form>
-    <p class="mt-4 text-sm text-center text-gray-600">Already have an account? <a href="#" class="text-blue-600">Log in</a></p>
+<body>
+  <div class="email-container">
+    <div class="email-header">
+      <h1>Welcome to Our Newsletter!</h1>
+    </div>
+    <div class="email-body">
+      <p>Hello there,</p>
+      <p>Thank you for subscribing to our newsletter. We're excited to have you with us.</p>
+      <p>Stay tuned for updates, tips, and exclusive content coming your way.</p>
+      <a href="#" class="button">Visit Our Website</a>
+    </div>
+    <div class="email-footer">
+      &copy; 2025 Company Name. All rights reserved.
+    </div>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
